@@ -22,7 +22,7 @@ twitter = ""
 
 # Diplay a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
-logo = "htmri_logo_reduced.jpg"
+logo = "htmri-logo.png"
 
 # Enable global source code highlighting? true/false
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
@@ -119,7 +119,7 @@ reading_time = false
 comment_count = false
 
 # Display next/previous section pager? (true/false)
-section_pager = true
+section_pager = false
 
 # Enable in-built social sharing buttons? (true/false)
 sharing = false

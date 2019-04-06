@@ -1,15 +1,14 @@
 +++
-widget = "blank"  
-headless = true  
-active = true  
-weight = 10  
+# Hero widget.
+widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
+headless = true  # This file represents a page section.
+active = true  # Activate this widget? true/false
+weight = 10  # Order that this section will appear.
 
 title = "WELCOME TO"
-subtitle = "**High Temperature Materials Research Institute**"
 
-[design]
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
+# Hero image (optional). Enter filename of an image in the `static/img/` folder.
+# hero_media = "headers.png"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -19,28 +18,31 @@ subtitle = "**High Temperature Materials Research Institute**"
 
   # Background color.
   # color = "navy"
-  
+
   # Background gradient.
-  gradient_start = "White"
-  gradient_end = "White"
-  
+  gradient_start = "#4bb4e3"
+  gradient_end = "#2b94c3"
+
   # Background image.
-  # image = "image.jpg"  # Name of image in `static/img/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+   image = "headers.png"  # Name of image in `static/img/`.
+   image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
-  text_color_light = false
+  text_color_light = true
 
-[design.spacing]
-  # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["20px", "0", "20px", "0"]
+# Call to action links (optional).
+#   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
+#   Remove a link/note by deleting a cta/note block.
 
-[advanced]
- # Custom CSS. 
- css_style = ""
- 
- # CSS class.
- css_class = ""
 +++
+**High Temperature Materials Research Institute**
 
+*some introductory text should be put in here*
 
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
