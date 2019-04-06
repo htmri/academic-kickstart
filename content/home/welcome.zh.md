@@ -1,3 +1,4 @@
+
 +++
 # Hero widget.
 widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
@@ -5,7 +6,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "WELCOME TO"
+title = "欢迎来到"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 # hero_media = "headers.png"
@@ -35,9 +36,9 @@ title = "WELCOME TO"
 #   Remove a link/note by deleting a cta/note block.
 
 +++
-**High Temperature Materials Research Institute**
+**中南大学 粉末冶金研究院 高温合金研究所**
 
-*some introductory text should be put in here*
+中文网站正在建设中。。。
 
 </br>
 </br>
